@@ -1,0 +1,16 @@
+POST http://localhost:8080/api/dummy/with-constraint
+Content-Type: application/json
+Accept: application/json
+
+{
+  "propertyA": ""
+}
+
+###
+POST http://localhost:8080/api/dummy/without-constraint
+Content-Type: application/json
+Accept: application/json
+
+{
+  "propertyA": ""
+}
